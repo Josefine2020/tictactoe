@@ -1,5 +1,7 @@
 
-
+ let currentplayer = "x"
+ totalNumber = "O"
+ 
 
 
 
@@ -7,6 +9,7 @@
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+   
 });
 
 $("#button2").click(function() {
